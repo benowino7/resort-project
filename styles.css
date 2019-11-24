@@ -1,0 +1,181 @@
+html {
+    background-color: aqua;
+}
+
+nav {
+    background-image: url('https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    height: auto;
+    /* display:flex; */
+    /* justify-content:space-around; */
+    overflow: hidden;
+    font-family: 'Abril Fatface', cursive;
+    position: sticky;
+    top:-50%;
+    
+
+
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav>ul>li {
+    list-style: none;
+    padding: 5px;
+    margin-top: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+nav>ul>li>a {
+    padding: 5px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background:rgb(131, 201, 201);
+    color: rgba(12, 12, 9, 0.7);
+}
+
+nav>img {
+    margin-left: 0%;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+
+}
+footer{
+    background-color: rgb(131, 201, 201);
+    background-size: cover;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    bottom: -20%;
+}
+footer ul li{
+list-style: none;
+    
+}
+footer>ul>li>a{
+    padding: 3.5px;
+    margin-right: 0;
+    text-transform: uppercase;
+    display: block;
+    text-transform: uppercase;
+}
+footer ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: brown;
+    color: rgba(12, 12, 9, 0.7);
+}
+
+
+i {
+    padding: 10px;
+     margin: 10px; 
+    display: flex;
+    justify-content: space space-around;
+}
+
+i:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: aqua;
+    color: rgba(12, 12, 9, 0.7);
+}
+/* p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+} */
+ img{
+    height: 300px;
+    width:300px;
+    margin: 2%;
+
+}
+ .gallery img{ 
+border-radius: 20%;
+margin: 2%;
+
+}
+#food,#housing,#branches{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h2,h3{
+    background-color: rgb(131, 201, 201);
+    padding: 1%; 
+    font-family: 'Abril Fatface', cursive;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-beteen; */
+    font-family: 'Dancing Script', cursive;
+    margin-left: 8%;
+    font-size: 28px;
+    
+}
+.first #bg{
+    margin-left:10%; 
+}
+.addition{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    list-style: none;
+}
+.addition img{
+    border-radius: 40%;
+    height: 350px;
+    width: 350px;
+    align-self: center;
+}
+@media screen and (max-width:500px){
+
+footer{
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+
+} 
+.first{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+.addition img{
+    max-width: 91%;
+}
+
+} 
+
+
+
+/* font-family: 'Shadows Into Light', cursive; */
